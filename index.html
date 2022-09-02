@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Encriptador Alura">
+   <meta name="keywords" content="Encriptador propuesto como desafío del curso para principiantes de ALURA">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="reset.css">
+   <link rel="stylesheet" href="redes.css">
+   <link rel="icon" href="./img/icon.png">
+   <title>Encriptador</title>
+</head>
+<body>
+   <header>
+      <h1>ENCRIPTADOR</h1>
+      <p>⛔ Ingresar letras sin acentos y sin caracteres especiales</p>
+   </header>
+   <main>
+
+      <section class="texto-original ">
+         <label  for="input-texto"><h2 class="color-io">Texto Original</h2></label>
+         <textarea id="input-texto" class="input-texto textarea-io textarea-i" cols="30" rows="10" placeholder="ingresar texto..." onclick="textareaNormal()"></textarea>
+      </section>
+      
+      <section class="encriptado">
+         <label for="mensaje"><h2 class="color-io">Texto Encriptado</h2></label>
+         <textarea id="mensaje" class="mensaje textarea-io textarea-o" cols="30" rows="10" placeholder="texto encriptado..."></textarea>
+      </section> 
+      
+      <section>
+         <div class="botones">
+            <button class="encriptar button color-input" onclick="btnEncriptar()">Encriptar >>></button>
+            <button class="copiar button color-output" onclick="btnCopiarOriginal()">Copiar Original</button>
+            <button class="borrar button color-input" onclick="btnBorrar()">Borrar tableros</button>
+            <button class="copiar button color-output" onclick="btnCopiarEncriptado()">Copiar Encriptado</button>
+            <button class="desencriptar button color-output" onclick="btnDesencriptar()"><<< Desencriptar</button>
+         </div>
+      </section>
+      
+      <section class="">
+         <textarea class="borrador" cols="30" rows="5" placeholder="texto copiado..."></textarea>
+      </section> 
+   </main>
+
+   <footer>
+      <div>
+         <span>
+            <a target="blanck" href="https://www.facebook.com/profile.php?id=100009817426057
+            "><img src="./img/facebook.png" id="facebook"></a>
+         </span>
+
+         <span>
+            <a target="blanck" href="https://github.com/JulioLaz"><img src="./img/github.png" id="github"></a>
+         </span>
+
+         <span>
+            <a target="blanck" href="https://www.linkedin.com/in/julio-lazarte-349468248?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BubU1fpKpQi6Kp7t%2FBq5AtA%3D%3D"><img src="./img/linkedin.png" id="linkedin"></a>
+         </span>
+
+         <span>
+            <a target="blanck" href="https://twitter.com/home"><img src="./img/twitter.png" id="twitter"></a>
+         </span>
+         
+         <span>
+            <a target="blanck" href="https://www.aluracursos.com/"><img src="./img/alura.png" id="alura"></a>
+         </span>
+      </div>
+      
+      <div>
+         <span>
+            <p class="copyright">&copy Copyright - ENCRIPTADOR / 2022 - Autor: Julio A. Lazarte - Argentina - Agradecimientos : "ALURA TEAM"
+         </p>
+         </span>
+      </div>
+   </footer>
+   <script src="script.js"></script>
+</body>
+</html>
