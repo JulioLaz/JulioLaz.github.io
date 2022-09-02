@@ -48,7 +48,7 @@ main{
    border-left: 1px solid white;
    border-right: 1px solid white;
    font-size:clamp(.6rem, calc(.6rem + 0.6vw), 1.2rem);
-
+   color: white;
 }
 .textarea-i{
    background: rgba(164, 192, 224,.7);
@@ -60,7 +60,6 @@ main{
 
 .textarea-o{
    background: rgba(250, 26, 26,.7);
-   color: white;
 }
 
 .textarea-o:hover{
