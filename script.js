@@ -93,7 +93,8 @@ function btnCopiarEncriptado(){
    }
    const textoCopiado= copiarEncriptado(mensaje.value);
    borrador.value = textoCopiado;
-   
+   borrador.style.color = "white";
+  
    mensaje.Select;
    navigator.clipboard.writeText(mensaje.value);
    document.getElementsByClassName("borrador")[0].style.background = "rgba(00, 00, 00,.6)";
